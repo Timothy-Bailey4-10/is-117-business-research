@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audience decision · Solo Software Research</title>
+  <meta name="description" content="Which audience we chose for the guide and why, with evidence and assumptions kept separate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&family=Source+Serif+4:wght@600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Solo Software Research<span>IS117 group project · research stage</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav id="site-nav" class="site-nav wrap" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitors.html">Competitors</a></li>
+        <li><a href="positions.html">Positions</a></li>
+        <li><a href="personas.html">Personas</a></li>
+        <li><a href="audience.html" aria-current="page">Audience</a></li>
+        <li><a href="findings.html">Findings → decisions</a></li>
+        <li><a href="sources.html">Sources</a></li>
+        <li><a href="review-log.html">Review log</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="ai-use.html">AI use</a></li>
+        <li><a href="changes.html">Change notes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+<div class="page-intro">
+  <h1>Audience decision</h1>
+  <p class="lead">Who the guide is for first, and the reasons, with evidence separated from assumptions.</p>
+</div>
+
+<div class="status-box">
+  <p><strong>Proposed primary audience:</strong> college students, especially CS students, who want side income from software (Persona 1).<br>
+  <strong>Secondary audience:</strong> new grad developers with a day job (Persona 2).</p>
+  <p><strong>Status:</strong> PROPOSED. <span class="todo">[TODO: Cs to agree or disagree in a GitHub issue; record the result in the Review log]</span></p>
+</div>
+
+<div class="cards">
+<section class="card" aria-labelledby="ev-h">
+  <h2 id="ev-h"><span class="tag tag-evidence">Evidence</span> What the evidence shows</h2>
+  <ul>
+    <li>On the four competitor pages we captured, there was no path aimed specifically at students (S1–S4). <a href="findings.html#f3">F3</a></li>
+    <li>MicroConf Connect costs $49/month or $499/year and requires an application (S4). <a href="findings.html#f2">F2</a></li>
+    <li>MicroConf's Connect page names “aspiring founders … employed but seriously working toward launching” as members (S4), so Persona 2 is already partly served.</li>
+  </ul>
+  <p><em>Limits:</em> four pages from two sites is a small sample. Indie Hackers is not captured yet.</p>
+</section>
+
+<section class="card" aria-labelledby="as-h">
+  <h2 id="as-h"><span class="tag tag-assume">Assumption</span> What we are assuming</h2>
+  <ul>
+    <li>Many students want side income from software.</li>
+    <li>Price and application barriers matter more to students than to employed developers.</li>
+    <li>Students would trust a guide made by other students.</li>
+    <li>Students have enough time (summers, breaks) to build something small.</li>
+  </ul>
+  <p><span class="tag tag-planned">Planned</span> How we'll test these: short interviews or a survey with classmates. See <a href="findings.html">Findings → decisions</a>.</p>
+</section>
+</div>
+
+<h2>Why not choose Persona 2 first?</h2>
+<p class="prose"><span class="tag tag-analysis">Analysis</span> The evidence suggests employed developers already have a community built for them (MicroConf). Students looked less served on the pages we checked, and we have the most first-hand access to students for testing.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <h2>How to read the labels</h2>
+      <ul class="legend">
+        <li><span class="tag tag-evidence">Evidence</span> we saw it in a listed source</li>
+        <li><span class="tag tag-analysis">Analysis</span> our interpretation of evidence</li>
+        <li><span class="tag tag-assume">Assumption</span> our belief, not yet tested</li>
+        <li><span class="tag tag-sim">Simulated</span> made up for planning, not real people</li>
+        <li><span class="tag tag-planned">Planned</span> a check we have not done yet</li>
+        <li><span class="tag tag-verify">[VERIFY]</span> must be checked against the source</li>
+        <li><span class="todo">[TODO]</span> still to be filled in</li>
+      </ul>
+      <p>Research stage documentation for an IS117 group project by Timothy Bailey and Cs. This is not the finished business site.
+      Last updated 2026-11-16. <a href="https://github.com/Timothy-Bailey4-10/is117-business-research">Repository</a> · <a href="https://github.com/Timothy-Bailey4-10/is117-business-research/issues">Issues</a></p>
+    </div>
+  </footer>
+</body>
+</html>

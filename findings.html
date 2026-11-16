@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Findings → decisions · Solo Software Research</title>
+  <meta name="description" content="Each research finding traced to its source, the design decision it leads to, and how we will check it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&family=Source+Serif+4:wght@600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Solo Software Research<span>IS117 group project · research stage</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav id="site-nav" class="site-nav wrap" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitors.html">Competitors</a></li>
+        <li><a href="positions.html">Positions</a></li>
+        <li><a href="personas.html">Personas</a></li>
+        <li><a href="audience.html">Audience</a></li>
+        <li><a href="findings.html" aria-current="page">Findings → decisions</a></li>
+        <li><a href="sources.html">Sources</a></li>
+        <li><a href="review-log.html">Review log</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="ai-use.html">AI use</a></li>
+        <li><a href="changes.html">Change notes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+<div class="page-intro">
+  <h1>Findings → decisions</h1>
+  <p class="lead">Each row reads left to right: what we found, where we found it, what we'll do about it and how we'll know if it worked.</p>
+</div>
+<div class="callout">
+  <p>Every check is labeled <span class="tag tag-planned">Planned</span> until it has actually been done. When a check is done, we'll change the label, add the date and link the evidence.</p>
+</div>
+<p class="scroll-hint">On small screens, scroll the table sideways.</p>
+<div class="table-wrap" role="region" aria-labelledby="cap-find" tabindex="0">
+<table>
+<caption id="cap-find">Each finding traced to its source, the decision it leads to and how we'll check it</caption>
+
+<thead>
+<tr><th scope="col">#</th><th scope="col">Finding</th><th scope="col">Source</th><th scope="col">Proposed feature or design decision</th><th scope="col">How we'll check it</th></tr>
+</thead>
+<tbody>
+<tr id="f1"><th scope="row">F1</th>
+  <td><span class="tag tag-evidence">Evidence</span> Starter Story and MicroConf lead with social proof: counts (“4,082+ real, revenue-generating projects,” “12,568 builders building”) and testimonial walls.</td>
+  <td><a href="sources.html#s1">S1</a>, <a href="sources.html#s2">S2</a>, <a href="sources.html#s3">S3</a>, <a href="sources.html#s4">S4</a></td>
+  <td>Use social proof only when it can be checked: real, linked examples, never anonymous testimonials.</td>
+  <td><span class="tag tag-planned">Planned</span> A reviewer opens every example on the future guide and confirms it links to a public source.</td></tr>
+<tr id="f2"><th scope="row">F2</th>
+  <td><span class="tag tag-evidence">Evidence</span> MicroConf Connect costs $49/month or $499/year and requires an application.</td>
+  <td><a href="sources.html#s4">S4</a></td>
+  <td>Keep the core “start here” path free, with no signup required to read it.</td>
+  <td><span class="tag tag-planned">Planned</span> Ask 5+ students whether price would stop them from joining a paid founder community.</td></tr>
+<tr id="f3"><th scope="row">F3</th>
+  <td><span class="tag tag-evidence">Evidence</span> On the four pages captured, no path was aimed specifically at students. <span class="tag tag-assume">Assumption</span> We assume this holds more widely.</td>
+  <td><a href="sources.html#s1">S1</a>–<a href="sources.html#s4">S4</a></td>
+  <td>Make a “Student start here” page the main entry point of the guide.</td>
+  <td><span class="tag tag-planned">Planned</span> Check Indie Hackers and 2 more sites for a student path. Five-second test with 3 classmates: can they tell who the guide is for?</td></tr>
+<tr id="f4"><th scope="row">F4</th>
+  <td><span class="tag tag-evidence">Evidence</span> Starter Story shows revenue figures (e.g. “$40K/mo”) prominently. <span class="tag tag-analysis">Analysis</span> We did not see how they are verified on these pages.</td>
+  <td><a href="sources.html#s1">S1</a></td>
+  <td>Label every revenue figure “verified” or “self-reported,” with its source.</td>
+  <td><span class="tag tag-planned">Planned</span> Audit: every number on the guide has a label and a link. <span class="todo">[TODO: check Starter Story's own explanation of its data]</span></td></tr>
+<tr id="f5"><th scope="row">F5</th>
+  <td><span class="tag tag-analysis">Analysis</span> Both sites use all seven Cialdini principles. Scarcity appears as exclusivity, not countdown timers.</td>
+  <td><a href="sources.html#s1">S1</a>–<a href="sources.html#s4">S4</a>, <a href="sources.html#s6">S6</a></td>
+  <td>Use reciprocity (free resources) and unity (student-builder identity). Avoid fake scarcity to keep a calm, trustworthy brand.</td>
+  <td><span class="tag tag-planned">Planned</span> Reviewer checks the guide's calls to action against the seven principles and flags any false urgency.</td></tr>
+<tr id="f6"><th scope="row">F6</th>
+  <td><span class="todo">[TODO: Finding about what actually makes one-person software businesses profitable, from a real source.]</span></td>
+  <td><span class="todo">[TODO]</span></td>
+  <td><span class="todo">[TODO]</span></td>
+  <td><span class="tag tag-planned">Planned</span></td></tr>
+</tbody>
+</table>
+</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <h2>How to read the labels</h2>
+      <ul class="legend">
+        <li><span class="tag tag-evidence">Evidence</span> we saw it in a listed source</li>
+        <li><span class="tag tag-analysis">Analysis</span> our interpretation of evidence</li>
+        <li><span class="tag tag-assume">Assumption</span> our belief, not yet tested</li>
+        <li><span class="tag tag-sim">Simulated</span> made up for planning, not real people</li>
+        <li><span class="tag tag-planned">Planned</span> a check we have not done yet</li>
+        <li><span class="tag tag-verify">[VERIFY]</span> must be checked against the source</li>
+        <li><span class="todo">[TODO]</span> still to be filled in</li>
+      </ul>
+      <p>Research stage documentation for an IS117 group project by Timothy Bailey and Cs. This is not the finished business site.
+      Last updated 2026-11-16. <a href="https://github.com/Timothy-Bailey4-10/is117-business-research">Repository</a> · <a href="https://github.com/Timothy-Bailey4-10/is117-business-research/issues">Issues</a></p>
+    </div>
+  </footer>
+</body>
+</html>
